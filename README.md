@@ -7,5 +7,5 @@ If you are interested in truly replicating the analysis with the SID files, send
 
 I can also send you the AHA Hospital Classification file for all US hospitals with the variables needed to replicate this analysis. 
 
-The two main files are MD SICU Data Cut 0321.sas and MD SICU Analysis 0321.sas. The four state data prep is in FL_NY_CA datacut 033126.sas and analysis is though the MD SICU Analysis file.
+The two main files are MD SICU Data Cut 0321.sas and MD SICU Analysis 0321.sas. The four state data prep is in FL_NY_CA datacut 033126.sas and analysis is incorporated into the MD SICU Analysis file via macro calls.
 
