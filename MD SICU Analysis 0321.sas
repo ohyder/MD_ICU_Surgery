@@ -15,7 +15,7 @@ data &INTMDATA;
 set sicu.&indata;
 
 AcadMC=0; *<== ACADEMIC MEDICAL CENTER;
-if MNAME in ('*Two Baltimore Hospitals - names suppressed because of  HCUP rules on public identification - contact author*') then AcadMC=1;
+if MNAME in ('/*The two largest hospitals in Baltimore - IYKYK - names suppressed because of HCUP rules on public identification - contact author if unclear*/') then AcadMC=1;
 
 /*** Elective Classification ***/
 ELECTIVE=0;
