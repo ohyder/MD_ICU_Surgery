@@ -65,7 +65,6 @@ run; */
 
 %mend;
 %recoding1 (INDATA=ICU_m_aha_6, INTMDATA=INDEX_MAIN1);
-%recoding1 (INDATA=ICU_f_aha_6, INTMDATA=INDEX_MAIN1_f);
 %recoding1 (INDATA=ICU_fnc_aha_6, INTMDATA=INDEX_MAIN1_fnc);
 
 
