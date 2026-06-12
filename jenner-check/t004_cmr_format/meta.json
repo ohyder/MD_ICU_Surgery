@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_cmr_format",
+  "source_file": "1_CMR_Format_Program_v2026-1.sas",
+  "source_blob_sha": "78fc96b60f95d37e48092936aab179ad450e8a88",
+  "source_commit": "9d616eba4038d8cda38427fc368dcb06c779f9c4",
+  "tier": "real_data",
+  "notes": "Elixhauser $COMFMT character format. The AIDS, OBESE, PARALYSIS, VALVE and WGHTLOSS code-list blocks (with their multi-code comma lists ending in = \"CATEGORY\") plus the trailing other=' ' fall-through are verbatim slices of the author's $COMFMT VALUE in 1_CMR_Format_Program_v2026-1.sas. Substitutions: built in WORK rather than the external 'library' libname, and trimmed the VALUE to a representative subset of categories for a fast check. Applied via PUT() to a 7-code inline DATALINES block; resolution verified (B20/Z21->AIDS, Z6856->OBESE, R532->PARALYSIS, Z954->VALVE, R64->WGHTLOSS, unmapped->blank)."
+}

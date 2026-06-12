@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_aha_hospclass",
+  "source_file": "data_management.sas",
+  "source_blob_sha": "1a9b62b710bdaee9df6f25e075c792550cbbb578",
+  "source_commit": "9d616eba4038d8cda38427fc368dcb06c779f9c4",
+  "tier": "real_data",
+  "notes": "AHA Annual Survey hospital labeling. The CBSA normalization, residents-to-bed ratio, teaching flag, 3-level HOSP_LOCTEACH assignment, the state-list SELECT/WHEN region mapping, and all four region-specific bed-size cut-point ladders are verbatim from data_management.sas. Substitution: replaced 'SET hcup.<wrds-id>' against the external HCUP library with a 10-row inline DATALINES block carrying CBSATYPE/MAPP3/MAPP8/FTRES/HOSPBD/MSTATE; dropped the empty-column DROP list entries that referenced unshipped fields. Classification spot-checked by hand."
+}

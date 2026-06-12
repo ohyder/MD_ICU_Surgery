@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_cmr_index",
+  "source_file": "3_CMR_Index_Program_v2026-1.sas",
+  "source_blob_sha": "be6c1cb97b212ffc6f1700e481589e9b3a7dff77",
+  "source_commit": "9d616eba4038d8cda38427fc368dcb06c779f9c4",
+  "tier": "real_data",
+  "notes": "Elixhauser Comorbidity Software Refined index calculation. The readmission/mortality weight assignments, the four parallel arrays (cmvars/rwcms/mwcms + ricms/micms), the index do-loop, the sum(of ...[*]) reductions and the drop rw: mw: ri: mi: prefix lists are verbatim from 3_CMR_Index_Program_v2026-1.sas. The only substitution: replaced 'SET IN1.&CORE' against an external library with a 6-row inline DATALINES block carrying the same 38 CMR_ present-on-admission flags. Index values verified by hand (e.g. patient 2 = readmission 16, mortality 13)."
+}

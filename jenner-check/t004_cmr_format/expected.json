@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-12T11:27:58.056037+00:00",
+  "_captured_run_id": "r_019ebb966e347852b193348535d5f87c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote dx_classified (7 rows, 2 columns).",
+    "PROC PRINT completed: 7 observations printed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

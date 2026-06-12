@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_msdrg_format",
+  "source_file": "MD SICU Data Cut 0321.sas",
+  "source_blob_sha": "1d678fbe05986dd95213b59c0812e7235a8ff1e2",
+  "source_commit": "9d616eba4038d8cda38427fc368dcb06c779f9c4",
+  "tier": "real_data",
+  "notes": "MS-DRG format build from end of MD SICU Data Cut 0321.sas. Reads the repo's own ms_drg.csv (a 40-row slice of the real 829-row file shipped under input/), builds a CNTLIN dataset, creates the numeric MSDRG format via PROC FORMAT, and applies it via PUT() to confirm labels resolve. Only the infile path was changed from the Dropbox absolute path to ./input/ms_drg.csv; the DATA/FORMAT logic is verbatim."
+}

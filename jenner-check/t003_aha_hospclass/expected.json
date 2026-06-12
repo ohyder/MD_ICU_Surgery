@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T11:16:48.525384+00:00",
+  "_captured_run_id": "r_019ebb8c35f570e1985da9a7807c75a8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote raw_hosps (10 rows, 7 columns).",
+    "Wrote hosps_labeled (10 rows, 12 columns).",
+    "PROC PRINT completed: 10 observations printed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

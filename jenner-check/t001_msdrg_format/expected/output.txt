@@ -1,0 +1,20 @@
+                                     MS-DRG codes mapped through the CNTLIN format                                      
+
+  Obs  DRG                                                                                                              DRG_DESC
+    1    1  Heart Transplant or Implant of Heart Assist System with MCC
+    2    3  ECMO or Tracheostomy with MV >96 Hours or Principal Diagnosis Except Face, Mouth and Neck with Major O.R. Procedures
+    3    5  Liver Transplant with MCC or Intestinal Transplant
+    4   10  Pancreas Transplant
+    5   20  Intracranial Vascular Procedures with Principal Diagnosis Hemorrhage with MCC
+
+                                     MS-DRG codes mapped through the CNTLIN format                                      
+
+                                          Row count of MS-DRG reference table                                           
+
+                                                  The MEANS Procedure
+
+ Variable          N
+ -------------------
+ msdrg_code       40
+ -------------------
+

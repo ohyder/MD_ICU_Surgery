@@ -1,0 +1,25 @@
+                            Elixhauser Comorbidity Software Refined for ICD-10-CM Diagnoses                             
+                           Assignment of In-Hospital Mortality and 30-Day Readmission Indices                           
+
+
+  Obs  KEY  CMR_INDEX_READMISSION  CMR_INDEX_MORTALITY
+-----  ---  ---------------------  -------------------
+    1    1                      0                    0
+    2    2                     16                   13
+    3    3                     52                   96
+    4    4                     29                   -6
+    5    5                     17                   26
+    6    6                     26                   55
+
+                            Elixhauser Comorbidity Software Refined for ICD-10-CM Diagnoses                             
+                           Assignment of In-Hospital Mortality and 30-Day Readmission Indices                           
+                                              Means of Comorbidity Indices                                              
+
+                                                  The MEANS Procedure
+
+ Variable                                                           N   N Miss           Mean        Std Dev        Minimum        Maximum
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ Comorbidity index for risk of 30-day, all-cause readmission        6        0     23.3333333     17.3166586      0.0000000     52.0000000
+ Comorbidity index for risk of in-hospital mortality                6        0     30.6666667     38.6764355     -6.0000000     96.0000000
+ -----------------------------------------------------------------------------------------------------------------------------------------
+
