@@ -1,0 +1,22 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT $COMFMT defined (23 ranges).
+NOTE: DATA dx_classified
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote dx_classified (7 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=dx_classified
+
+NOTE: PROC PRINT completed: 7 observations printed, 2 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_cmr_category.spec.json
+NOTE: PROC FREQ statement used.

@@ -1,0 +1,32 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA states_in
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote states_in (8 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA states_combined
+
+
+NOTE: Read 8 rows from states_in.
+NOTE: Wrote states_combined (8 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=states_combined
+
+NOTE: PROC PRINT completed: 8 observations printed, 13 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_age_cat.spec.json
+NOTE: ODS plot written: freq_race_cat.spec.json
+NOTE: ODS plot written: freq_payer.spec.json
+NOTE: ODS plot written: freq_los_cat.spec.json
+NOTE: ODS plot written: freq_ses_low.spec.json
+NOTE: ODS plot written: freq_routine_dc.spec.json
+NOTE: PROC FREQ statement used.

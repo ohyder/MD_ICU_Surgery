@@ -1,0 +1,42 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA msdrg_raw
+
+NOTE: Reading from fileref ./input/ms_drg.csv (input/ms_drg.csv)
+
+NOTE: Read 40 rows from ./input/ms_drg.csv.
+NOTE: Wrote msdrg_raw (40 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA fmt
+
+
+NOTE: Read 40 rows from msdrg_raw.
+NOTE: Wrote fmt (40 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: CNTLIN: Loaded 40 format entries from fmt
+NOTE: DATA drg_check
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote drg_check (5 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=drg_check
+
+NOTE: PROC PRINT completed: 5 observations printed, 2 variables
+NOTE: PROC FREQ
+NOTE: Output dataset code_counts has 40 observations and 3 variables.
+NOTE: ODS plot written: freq_msdrg_code.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

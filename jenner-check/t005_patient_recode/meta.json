@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_patient_recode",
+  "source_file": "FL_NY_CA datacut 033126.sas",
+  "source_blob_sha": "6e434a48e7e019d9f8d2c53ec51ab8faa42c8fb1",
+  "source_commit": "9d616eba4038d8cda38427fc368dcb06c779f9c4",
+  "tier": "real_data",
+  "notes": "states_combined patient-categorization step. The age_cat / race_cat / payer / payer_govt / los_cat / SES_LOW / routine_dc derivations and the negative-value DELETE guards (year/died/female/los) are verbatim from FL_NY_CA datacut 033126.sas. Substitution: replaced the three-way SET concatenation of external state SID extracts with an 8-row inline DATALINES block carrying age/race/pay1/los/zipinc_qrtl/dispuniform/year/died/female; dropped the i10_pr31-/i10_dx31- DROP list that referenced unshipped over-limit columns. Category assignments spot-checked."
+}

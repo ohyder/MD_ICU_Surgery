@@ -1,0 +1,28 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA cmr_in
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote cmr_in (6 rows, 39 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Elixhauser Comorbidity Software Refined for ICD-10-CM Diagnoses.
+NOTE: Option TITLE2 changed to Assignment of In-Hospital Mortality and 30-Day Readmission Indices.
+NOTE: DATA cmr_out
+
+
+NOTE: Read 6 rows from cmr_in.
+NOTE: Wrote cmr_out (6 rows, 41 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=cmr_out
+
+NOTE: PROC PRINT completed: 6 observations printed, 3 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

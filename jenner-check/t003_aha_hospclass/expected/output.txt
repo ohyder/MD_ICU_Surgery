@@ -1,0 +1,45 @@
+                   AHA hospitals classified by location/teaching status and region-specific bed size                    
+
+  Obs  AHAID  MSTATE            REGION  URBAN_FLAG  TEACH_FLAG  HOSP_LOCTEACH  HOSPBD  HOSP_BEDSIZE
+    1    101  MD      SOUTHERN REGION            1           1              3     640             3
+    2    102  MD      SOUTHERN REGION            1           0              2     150             2
+    3    103  MD      SOUTHERN REGION            0           0              1      40             2
+    4    104  NY      NORTHEAST REGION           1           1              3     210             1
+    5    105  NY      NORTHEAST REGION           0           0              1      80             2
+    6    106  CA      WESTERN REGION             1           0              2     110             2
+    7    107  CA      WESTERN REGION             1           1              3     500             3
+    8    108  CA      WESTERN REGION             0           0              1      22             1
+    9    109  IL      MIDWEST REGION             1           0              2      90             2
+   10    110  IL      MIDWEST REGION             1           1              3     410             3
+
+                   AHA hospitals classified by location/teaching status and region-specific bed size                    
+
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+HOSP_LOCTEACH    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+1                        3     30.00            3        30.00
+2                        3     30.00            6        60.00
+3                        4     40.00           10       100.00
+
+                                        Cumulative    Cumulative
+URBAN_FLAG    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------
+0                     3     30.00            3        30.00
+1                     7     70.00           10       100.00
+
+                                          Cumulative    Cumulative
+HOSP_BEDSIZE    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+1                       2     20.00            2        20.00
+2                       5     50.00            7        70.00
+3                       3     30.00           10       100.00
+
+                                              Cumulative    Cumulative
+region              Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+MIDWEST REGION              2     20.00            2        20.00
+NORTHEAST REGION            2     20.00            4        40.00
+SOUTHERN REGION             3     30.00            7        70.00
+WESTERN REGION              3     30.00           10       100.00

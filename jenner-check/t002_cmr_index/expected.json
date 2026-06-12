@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T11:15:32.031434+00:00",
+  "_captured_run_id": "r_019ebb8b188875a1a6cd4f8e24f7d9b5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote cmr_in (6 rows, 39 columns).",
+    "Wrote cmr_out (6 rows, 41 columns).",
+    "PROC PRINT completed: 6 observations printed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
